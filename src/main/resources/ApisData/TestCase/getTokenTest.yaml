@@ -1,0 +1,17 @@
+#apiTestCaseModel
+name: getToken
+description: 获取token
+steps:
+#删除部门流程/步骤
+  - api: Token
+    action: getAccessToken
+    params: []
+
+  - api: department
+    action: list
+    params: []
+
+  - department: list
+
+#  - api: list  #先增加,再删除
+#    action: list

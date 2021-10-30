@@ -1,0 +1,12 @@
+#获取token的API
+name: Token
+description: 获取token
+methods:
+  getAccessToken:
+    #ApiObjectModel对象
+#    method: get
+#    url: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+    get: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+    params:
+      corpsecret: 9ghF-Z7OhBnSOTeXa0BZG2o1nPXR7zEYHSAImLmdUbA
+      corpid: ww7e8290dae1a5371d

@@ -1,0 +1,20 @@
+#获取token的API
+name: department
+description: 部门的查
+methods:
+  list:
+    #ApiObjectModel对象
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/department/list
+    params:
+      id: 1
+      access_token: xuzcsKdHvorSLgUOYBiacm_Rv9QT4ljrskQhnF_GEKH3HB88WhsAcJ9HwxBGziQMj1uS6WN1XXSbnlCKF9OhzW_hIDGlspBKU1Zy7mAxdAOXoXBX1dWZclbfdE28iZOHocHAH_7Qe2ZegREhMtteWRCVcaYOvEkH6pygszl0oEAiNGZ7vt_FulR08Z3uNoKQeY01CrdiZnY21TAAp5-ZSA
+#  - create:
+#      - post: https://qyapi.weixin.qq.com/cgi-bin/department/create
+#      - body:
+#          - token:
+#
+#  - delete:
+#
+#  - update:
+
